@@ -1,0 +1,64 @@
+
+.item-info {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0px #000000;
+  color: #333333;
+  line-height: 24px;
+  padding: 20px;
+}
+
+/* INFO DE  LOS ARTICULOS */
+.item-nombre {
+  font-weight: 700;
+  line-height: 22px;
+  color: #333333;
+  max-width: calc(200% / 2);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: start;
+  width: auto;
+}
+.item-marca {
+  font-size: 0.8em !important;
+  text-transform: uppercase;
+  margin-bottom: -3%;
+  text-align: start;
+}
+.item-vendido {
+  font-size: 12px !important;
+  text-align: start;
+  margin: 0;
+}
+
+
+
+/* BOTON AGREGAR/QUITAR DE CARRITO*/
+.btn-add, .btn-substract {
+  align-items: center;
+  border: 1px solid white ;
+  background-color: #3b5d80;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.btn-add:hover, .btn-substract:hover {
+  cursor: pointer!important;
+  background-color: #5b6d80;
+  transition: .5s;
+  
+}
+
+/* BOTON FINALIZAR COMPRA NARANJO */
+
+.btn-end {
+  background-color: rgb(255, 94, 0);
+  border: none;
+  border-radius: 20px;
+  width: 75%;
+  padding: 10px 20px 10px 20px;
+}

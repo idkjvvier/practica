@@ -1,0 +1,46 @@
+/* CARRITO DE COMPRAS */
+
+.flotar {
+  top: 0%;
+  right: -350px;
+  width: 350px;
+  height: 100vh;
+  z-index: 9999;
+  position: fixed;
+  background-color: white;
+  transition: right 0.3s ease-out;
+  box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 1%;
+}
+.flotar-0 {
+  top: 0%;
+  right: 0px;
+  width: 350px;
+  height: 100vh;
+  z-index: 9999;
+  position: fixed;
+  background-color: white;
+  transition: right 0.3s ease-out;
+  box-shadow: -10px 0 10px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 1%;
+}
+.mostrarProductos {
+  width: 90%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.listadoProductos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.eliminar {
+  border: none;
+  background-color: transparent;
+}
+

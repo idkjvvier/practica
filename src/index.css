@@ -1,0 +1,37 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+:root {
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.btn-add-cart {
+  background-color: #495867 !important;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: 6px;
+}
+.btn-add-cart:hover{
+  background-color: #283f55 !important;
+  color: white !important;
+}
